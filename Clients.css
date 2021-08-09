@@ -1,0 +1,68 @@
+#top{
+	font-size: 17px;
+	color: yellow;
+	background-color: black;
+}
+
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 150px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #121212; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+
+}
+
+.sidenav a {
+  padding: 15px 8px 15px 16px;
+  position:relative;  top:130px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #b2b2b2;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav2 {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 150px; /* Set the width of the sidebar */
+  position: relative; margin-left: 1387px;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #121212; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.sidenav2 a {
+  padding: 15px 15px 15px 16px;
+  position:relative;  top:130px;
+  text-decoration: none;
+  font-size: 21px;
+  color: #b2b2b2;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav2 a:hover {
+  color: #f1f1f1;
+}
+
+.about{
+  color: white;
+  position: relative; top:77px; left: 250px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 21px;
+}
